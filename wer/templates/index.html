@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sharik.UA</title>
+  <style>
+    body {
+      text-align: center;
+      background-color: #260fa338;
+      color: #000000;
+    }
+    
+    h1 {
+      margin-top: 50px;
+    }
+    
+    #gallery-button, #biography-button, #breed-button, .back-button {
+      background-color: #1f7b2277;
+      border: none;
+      color: rgb(0, 0, 0);
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 10px;
+      cursor: pointer;
+    }
+    
+    .section {
+      display: none;
+      margin-top: 50px;
+    }
+    
+    #gallery-section:target, #biography-section:target, #breed-section:target {
+      display: block;
+    }
+    
+    .back-button {
+      display: block;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Гав👋🏻я Шарік</h1>
+  
+  <img src="../static/images/Мамина любов.jpg" alt="Основна фотографія Шаріка" width="250">
+
+  
+  <nav>
+    <ul>
+      <li><a href="#gallery-section" id="gallery-button">Галерея</a></li>
+      <li><a href="#biography-section" id="biography-button">Біографія</a></li>
+      <li><a href="#breed-section" id="breed-button">Контакти маман</a></li>
+    </ul>
+  </nav>
+  
+  <section id="gallery-section" class="section">
+    <h2>Галерея</h2>
+    <img src="/static/images/dog.jpg" alt="Фото 1" width="200">
+    <img src="/static/images/dogg.jpg" alt="Фото 2" width="200">
+    <img src="/static/images/doggg.jpg" alt="Фото 3" width="200">
+    <img src="/static/images/Шар.jpg" alt="Фото 4" width="200">
+    <img src="/static/images/Шор.jpg" alt="Фото 5" width="200">
+    <img src="/static/images/Шарік.jpg" alt="Фото 6" width="200">
+    <img src="/static/images/Sharik.jpg" alt="Фото 7" width="200">
+
+    <a href="#" class="back-button">Повернутися на головну сторінку</a>
+  </section>
+    <section id="biography-section" class="section">
+        <h2>Біографія</h2>
+        <p>Привіт👋🏻 Мене звати Шарік, і мені 3 рочки.У мене густа довга шерсть, а мій хвіст схожий на хвіст білочки.Зрістом я, можливо, невеликий, але дуже голосний.
+            У мене є багато кличок, таких як Шарон, Котик, Шурік,Лапка, Бусічка,Тайсон. Але моя мама зробила такий кіпіш на цей рахунок, що ви не повірите! Зараз вона сама мене так називає...Щодо вибору імені, я краще промовчу.
+            Я дуже радий, що потрапив саме в цю сім'ю. Вони мене тут дуже люблять, носять на руках і граються зі мною, як з маленькою дитиною. Хоча я не завжди слухаю їх і не дуже знаю команди, але якщо дуже сильно попросити і дати смаколик, я все ж таки виконаю команду "Дай лапу". Ось такий я, Шарік!</p>
+        <a href="#" class="back-button">Повернутися на головну сторінку</a>
+      </section>
+  <section id="breed-section" class="section">
+    <h2>Контакти маман</h2>
+    <a href="https://instagram.com/aallnns_?igshid=NTc4MTIwNjQ2YQ==">instagram</a>
+    <p>tel:+380990895318</p>
+    <p></p>
+    <a href="#" class="back-button">Повернутися на головну сторінку</a>
+  </section>
+</body>
+</html>
